@@ -1,0 +1,37 @@
+html {
+    padding: 1em;
+    background-image: url('/labs/lab04/images/backgrnd.jpg');
+    margin: 1em;
+}
+body {
+font-family: Verdana, sans-serif;
+}
+main {
+    background-color: aliceblue;
+    padding: 1em;
+    border: 3px solid black;
+}
+
+header {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin: 2em;
+    padding: .5em;
+    font-size: x-large;
+    border: double;
+    border-width: thick;
+}
+a:link {
+    color: violet;
+}
+a:visited {
+    color: darkorchid;
+}
+a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+img {
+    border: 2px solid black;
+}
