@@ -1,0 +1,50 @@
+html {
+    padding: 1em;
+    background-image: url('images/backgrnd.jpg');
+    margin: auto;
+    width: 70%;
+    max-width: 740px;
+    min-width: 600px;
+    min-height: 100%;
+    padding: 1em 2em;
+}
+body {
+font-family: Verdana, sans-serif;
+}
+main, footer {
+    background-color: aliceblue;
+    padding: 1em;
+    border: 3px solid black;
+}
+
+header {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin: 2em;
+    padding: .5em;
+    font-size: x-large;
+    border: double;
+    border-width: thick;
+}
+a:link {
+    color: violet;
+}
+a:visited {
+    color: darkorchid;
+}
+a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+img {
+    border: 2px solid black;
+}
+ul {
+    list-style: none;
+    padding: 0 1em;
+
+} 
+footer {
+    margin: 1em;
+}
