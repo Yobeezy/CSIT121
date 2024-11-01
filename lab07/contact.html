@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav>
+    <ul>
+        <li><a href="tierlist.html">Tier List</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<body>
+
+    <header>
+
+        <h1>
+            Contact Us
+        </h1>
+
+    </header>
+
+    <main>
+
+        <form action="" method="post" aria-label="Contact Form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Pork" required aria-required="true">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="freakbob69420@gmail.com" required aria-required="true">
+            </div>
+            <br>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="5" maxlength="1600" placeholder="Please enter your message here."></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="message">What is your favoirte Candy? :</label>
+                <textarea id="message" name="message" rows="5" maxlength="1600" placeholder="Please enter your message here."></textarea>
+            </div>
+            <br>
+            <div>
+                <label class="block">Do you agree with my tier list for the most part?</label>
+                <fieldset class="horizontalFields">
+
+                    <input type="radio" id="candy-yes" name="candy" value="yes">
+                    <label for="candy-yes">Yes</label>
+
+                    <input type="radio" id="candy-no" name="candy" value="no">
+                    <label for="candy-no">No</label>
+                </fieldset>
+            </div>
+            <br>
+            <div>
+
+                <input type="checkbox" id="best" name="best">
+                <label for="best">I agree that Twix is the best candy to ever exist.</label>
+
+            </div>
+            <br>
+            <div>
+                <button type="reset">Reset</button>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Kaden Duong in CSIT 121</p>
+        <p>Contact: <a href="mailto:yobeebrih123@gmail.com">yobeebrih123@gmail.com</a></p>
+    </footer>
+
+</body>
+
+</html>
