@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab08</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="main.html">Home</a>
+        <a href="gif.html">GIF</a>
+        <a href="vball.html">JPG</a>
+        <a href="steak.html">PNG</a>
+    </div>
+
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+    <div id="main">
+
+        <header>
+            <h1>
+                Visual Media Lab
+            </h1>
+        </header>
+
+        <main>
+            <article>
+                <p id="caption"><em>Published on September 26th, 2024 by Kaden Duong</em></p>
+                <p>This is my first ever multipage website!</p>
+            </article>
+        </main>
+        <footer>
+            <p>© 2024 Kaden Duong in CSIT 121</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+</body>
+
+</html>
