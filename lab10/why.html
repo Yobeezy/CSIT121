@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>steak!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="what.html">What is it?</a>
+        <a href="why.html">Why is it important?</a>
+        <a href="how.html">How is it used?</a>
+        <a href="source.html">Sources</a>
+    </div>
+
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    <div id="main">
+        <header>
+            <h1>
+                Why is it important?
+            </h1>
+        </header>
+        <main>
+            <article>
+                <img src="image/import.jpg" alt="Image saying important" width="400">
+                <h3>Undeniable Security</h3>
+                <p> The Web Crypto API is a tool that helps developers add strong security features to web applications by handling encryption and other cryptographic tasks directly in the browser. This means developers don't need to rely on external entities
+                    to protect sensitive data because they could pose potential security risks themselves. The API helps secure data both when it's stored and when it's sent over the internet. By doing these tasks client-side, it keeps user data safer
+                    and reduces the risk of exposing sensitive information during transmission.
+                </p>
+                <h3>Abide Privacy Laws</h3>
+                <p> The Web Crypto API also helps developers meet privacy laws like the GDPR, which require websites to protect personal data. With this tool, developers can make sure that any sensitive data is encrypted before it's stored or sent anywhere,
+                    ensuring it's kept safe from unauthorized access. This built-in support for encryption helps developers follow best practices for data protection without needing to rely on extra tools that might be risky or slow down their applications.
+                </p>
+                <h3>Efficient and Effective</h3>
+                <p> One of the biggest advantages of the Web Crypto API is that it works right in the browser, making everything faster and more secure. Instead of using slower, less secure JavaScript methods, it uses the browser's built-in features to handle
+                    encryption. This means that data stays safe while it's being processed and that there’s less chance of it being intercepted. As web apps continue to handle more private and sensitive data, the Web Crypto API helps developers build
+                    secure applications that users can trust. It fulfills the CIA triad model which stands for confidentiality, integrity, and availability.
+                </p>
+            </article>
+        </main>
+        <footer>
+            <p>© 2024 Kaden Duong in CSIT 121</p>
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+
+</html>

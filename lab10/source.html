@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>steak!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="what.html">What is it?</a>
+        <a href="why.html">Why is it important?</a>
+        <a href="how.html">How is it used?</a>
+        <a href="source.html">Sources</a>
+    </div>
+
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    <div id="main">
+        <header>
+            <h1>
+                Sources
+            </h1>
+        </header>
+        <main>
+            <article>
+                <img src="image/wrkcit.jpg" alt="An image saying works cited" width="400">
+                <h3>Works Cited</h3>
+                <p>Allen, N. (2023, January 30). The Web Cryptography API in Action. Medium. Retrieved November 22, 2024, from https://medium.com/slalom-build/the-web-cryptography-api-in-action-89b2f68c602c<br></br>
+                    Allen, N. (2023, January 30). Unlocking the Web Crypto API. Medium. Retrieved November 22, 2024, from https://medium.com/slalom-build/unlocking-the-web-crypto-api-aab670d2bda<br></br>
+                    Fuchs, M. (2022, November 21). The Web Cryptography API: Do Not Trust Anybody! [Part 1]. Inovex GmbH. Retrieved November 25, 2024, from https://www.inovex.de/de/blog/web-cryptography-api-part-1/<br></br>
+                    Mdn web docs. (n.d.). Web Crypto API. MDN Web Docs. Retrieved November 22, 2024, from https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API#interfaces<br></br>
+                    W3C. (n.d.). Web Cryptography API. https://www.w3.org/TR/WebCryptoAPI/#introduction<br></br>
+
+                </p>
+            </article>
+        </main>
+        <footer>
+            <p>© 2024 Kaden Duong in CSIT 121</p>
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+
+</html>

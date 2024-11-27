@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>steak!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="what.html">What is it?</a>
+        <a href="why.html">Why is it important?</a>
+        <a href="how.html">How is it used?</a>
+        <a href="source.html">Sources</a>
+    </div>
+
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    <div id="main">
+        <header>
+            <h1>
+                What is it?
+            </h1>
+        </header>
+        <main>
+            <article>
+                <img src="image/wcaa.png" alt="image of Earth with a lock on it to represent security around the globe" width="400">
+                <h3>Definition</h3>
+                <p> Web Crypto API is a powerful tool consisting of best practices like encryption, signing, and hashing used to secure your web applications. It is a low-level interface made to secure web apps directly within the web browser. These best
+                    practices are a set of methods called “cryptographic primitives.” These methods aid in developing and implementing secure patterns. It also adds integrity, one of the three main goals of the CIA triad, to a system.
+                </p>
+                <h3>Purpose</h3>
+                <p> Web Crypto API was created because there was a lack of native cryptographic functionality in JavaScript, requiring third-party libraries with potential security risks. Another reason it was created is to provide a baseline across all browsers
+                    and web pages for how to secure it and manage said security risks. Basically, it was made in order to standardize securing and encrypting web applications. The WCA was also made in order to provide users with client-side security which
+                    is way safer than server-side security.
+                </p>
+                <h3>Who Made It and When</h3>
+                <p> Web Crypto API was made by the Web Cryptography Working Group (WCWG), which is a part of the World Wide Web Consortium (W3C). The specification for the Web Crypto API was published on January 26, 2017.
+                </p>
+            </article>
+        </main>
+        <footer>
+            <p>© 2024 Kaden Duong in CSIT 121</p>
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+
+</html>
